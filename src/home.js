@@ -1,8 +1,13 @@
+//import "./home.css";
 const content = document.getElementById("content");
 
 export function loadHome() {
+
+    content.innerHTML = "";
+    
     const titleSection = document.createElement("section");
         //create first Section with title and paragraph
+        titleSection.className = "title-section";
         const titleHeading = document.createElement("h1");
         titleHeading.textContent = "Welcome to the Restaurant Page!";
         titleSection.appendChild(titleHeading);
@@ -15,6 +20,7 @@ export function loadHome() {
 
         //create second Section with h2 and p
         const aboutSection = document.createElement("section");
+        aboutSection.className = "title-section";
 
         const aboutHeading = document.createElement("h2");
         aboutHeading.textContent = "Lorem Ipsum";
@@ -28,6 +34,7 @@ export function loadHome() {
 
         //create third Section with h2 and p
         const contactSection = document.createElement("section");
+        contactSection.className = "title-section";
 
         const contactHeading = document.createElement("h3");
         contactHeading.textContent = "Contact Us";
