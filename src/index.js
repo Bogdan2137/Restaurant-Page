@@ -1,6 +1,6 @@
-import "./style.css";
-import "./home.css";
-import "./menu.css";
+import "./styles/style.css";
+import "./styles/home.css";
+import "./styles/menu.css";
 import "./imgs/bg.jpg";
 import { loadHome } from "./home.js";
 import { loadMenu } from "./menu.js";

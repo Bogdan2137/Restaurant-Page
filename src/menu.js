@@ -1,4 +1,4 @@
-import "./menu.css";
+//import "./styles/menu.css";
 const content = document.getElementById("content");
 
 const menuItems = [

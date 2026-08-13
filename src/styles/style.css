@@ -39,7 +39,7 @@ nav>button{
     flex-direction:column;
     align-items:center;
     justify-content:space-evenly;
-    background-image: url(./imgs/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     background-size: cover;
     background-position: center;
 }
